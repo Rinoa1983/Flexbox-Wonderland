@@ -171,13 +171,13 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 2.5em;
+      gap: 2.5rem;
     }
     .card-row {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
-      gap: 2.5em;
+      gap: 2.5rem;
       justify-content: center;
     }
     .card-row:nth-child(even) {
@@ -364,7 +364,7 @@
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 2.5em;
+      gap: 2.5rem;
     }
     .footer-section {
       flex: 1 1 200px;
@@ -381,7 +381,7 @@
     .footer-links {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 0.8rem;
     }
     .footer-link {
       color: rgba(255,255,255,0.85);
@@ -409,7 +409,9 @@
     .footer-icons {
       margin-top: 1rem;
       display: flex;
-      gap: 20px;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      justify-content: center;
     }
     .footer-icon {
       width: 35px;
@@ -423,6 +425,9 @@
       user-select: none;
       position: relative;
       overflow: hidden;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
     }
     .footer-icon::before {
       content: "";
